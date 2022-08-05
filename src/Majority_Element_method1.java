@@ -10,7 +10,7 @@ public class Majority_Element_method1 {
         int ans=0;
         boolean flag=true;
         for(Map.Entry<Object,Long> i : en){
-            if(i.getValue() >= maj){
+            if(i.getValue() > maj){
 
                ans= (Integer)i.getKey();
                flag=false;
